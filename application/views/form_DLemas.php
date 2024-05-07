@@ -7,7 +7,7 @@
 <body>
     <center>
         <?php echo validation_errors(); ?>
-        <form action="<?= base_url('Matakuliah/cetak'); ?>" method="post">
+        <form action="<?= base_url('DLemas/cetak'); ?>" method="post">
             <table>
                 <br>
                 <tr>
@@ -45,7 +45,7 @@
                     <th>Tanggal Lahir</th>
                     <td>:</td>
                     <td>
-                        <input type="date" name="tanggallahir" id="tanggallahir">
+                        <input type="text" name="tanggallahir" id="tanggallahir">
                     </td>
                 </tr>
                 <tr>
